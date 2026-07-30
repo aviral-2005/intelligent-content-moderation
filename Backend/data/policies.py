@@ -1,0 +1,56 @@
+STOP_WORDS = {
+    "the",
+    "is",
+    "are",
+    "was",
+    "were",
+    "a",
+    "an",
+    "and",
+    "or",
+    "to",
+    "of",
+    "for",
+    "with",
+    "this",
+    "that",
+    "it",
+    "in",
+    "on",
+    "at",
+    "as",
+    "by",
+    "be",
+    "has",
+    "have",
+}
+
+POSITIVE_WORDS = {
+    "good",
+    "great",
+    "excellent",
+    "awesome",
+    "love",
+    "best",
+    "amazing",
+    "wonderful",
+    "happy",
+    "perfect",
+    "recommend",
+}
+
+NEGATIVE_WORDS = {
+    "bad",
+    "worst",
+    "terrible",
+    "poor",
+    "hate",
+    "awful",
+    "fake",
+    "scam",
+    "horrible",
+    "disappointed",
+    "useless",
+}
+
+PROFANITY_WORDS = {"idiot", "stupid", "damn", "hell", "trash", "garbage"}

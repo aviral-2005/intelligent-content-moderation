@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Deep ink-navy console, not pure black — keeps the teal identity
+     from the light theme but tuned for a dim room. */
+  --color-paper: #10141B;
+  --color-ink: #ECEFF3;
+  --color-ink-soft: #8D96A3;
+  --color-panel: #191F29;
+  --color-line: #2B323D;
+  --color-brand: #5CAFAC;
+  --color-brand-dark: #7FC4C1;
+  --color-brand-hover: #468885;
+  --color-brand-soft: #1B2E2D;
+
+  --color-risk-low: #4CC38A;
+  --color-risk-low-bg: #142A20;
+  --color-risk-low-border: #24503A;
+
+  --color-risk-medium: #E3B04B;
+  --color-risk-medium-bg: #2E2510;
+  --color-risk-medium-border: #4E3E17;
+
+  --color-risk-high: #E5645F;
+  --color-risk-high-bg: #2E1717;
+  --color-risk-high-border: #4E2321;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background-color: var(--color-brand-soft);
+  color: var(--color-brand-dark);
+}
