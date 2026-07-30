@@ -1,4 +1,4 @@
-# Intelligent Content Moderation Workflow
+Moderation Workflow
 
 An AI-powered content moderation system that analyzes user-generated content, assesses potential risks, and provides intelligent moderation decisions using a multi-agent workflow.
 
@@ -231,7 +231,9 @@ http://localhost:5173
 
 ## 📸 Screenshots
 
-> Add screenshots inside a `screenshots` folder.
+<img width="1653" height="865" alt="image" src="https://github.com/user-attachments/assets/860a847c-f11f-4bb9-816b-b47349ebac22" />
+<img width="1651" height="857" alt="image" src="https://github.com/user-attachments/assets/fd4da3b7-d333-4abf-ab30-240bf8dc6860" />
+
 
 Example:
 
